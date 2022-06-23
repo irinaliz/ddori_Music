@@ -13,7 +13,7 @@ export default function Header() {
     <div id="wrap">
       <header>
         <h1 className="logo">ddori Music</h1>
-        <div className="box">
+        <div className="search_box">
           <input type="search" id="search" placeholder="찾고 싶은 노래를 검색하세요"/>
           <button>검색</button>
         </div>
