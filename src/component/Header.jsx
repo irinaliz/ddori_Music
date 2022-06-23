@@ -1,25 +1,26 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../css/test.css";
+import "../css/style.css";
 
 //class = > className
 export default function Header() {
-  let styled = {
-    width: "100px",
-    height: "200px",
-    backgroundColor: "black",
-  };
+  // let styled = {
+  //   width: "100px",
+  //   height: "200px",
+  //   backgroundColor: "black",
+  // };
   return (
-    <header>
-      <nav>
-        {/* Link 태그는 A태그로 바뀌어 적용됨  상단에 import Link from 필수 -- 2번 줄 참조 */}
-        <Link to="/">Go home</Link>
-        <Link to="/1">Section 1</Link>
-        <Link to="/2">Section 2</Link>
-      </nav>
-      <div id="adwadw" style={styled}>
-        dadwdadacziojcaw
-      </div>
-    </header>
+    <div id="wrap">
+      <header>
+        <h1 className="logo">ddori Music</h1>
+        <div className="box">
+          <input type="search" id="search" placeholder="찾고 싶은 노래를 검색하세요"/>
+          <button>검색</button>
+        </div>
+        <div className="user">
+          <Link to="/">Login</Link>
+        </div>
+      </header>
+    </div> //wrap
   );
 }
