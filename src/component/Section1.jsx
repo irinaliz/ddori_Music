@@ -1,10 +1,10 @@
 import React from "react";
-import "../css/song.css";
+import "../css/bestSong.css";
 
 export default function Section1() {
   return (
     <section>
-      {/* 이번주 베스트 곡들 */}
+      {/* 이번주 베스트 곡 - 10개 */}
       <div className="best_song">
         <h1>이번주 베스트 곡</h1>
         <ol>

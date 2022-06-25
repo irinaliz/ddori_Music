@@ -1,0 +1,50 @@
+.recent_song {
+    padding: 10px;
+}
+
+.recent_song h1 {
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.recent_song ol li,
+.recent_song .song_left,
+.recent_song .song_right {
+    display: flex;
+    font-size: 1rem;
+}
+
+.recent_song li{
+    margin: 20px auto;
+}
+
+.recent_song .song_left {
+    align-items: center;
+    /* width: 40%; */
+}
+
+.recent_song .song_art {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    background: yellowgreen;
+}
+
+.recent_song .song_num {
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+.recent_song .song_right {
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.recent_song .song_name {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+

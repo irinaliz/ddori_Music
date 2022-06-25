@@ -15,7 +15,9 @@ export default function Header() {
   return (
     <div id="wrap">
       <header>
-        <h1 className="logo">DDORI Music</h1>
+        <h1 className="logo">
+          <Link to="/">DDORI Music</Link>
+        </h1>
         <div className="right_items">
           <div className="user">
             <Link to="/">Login</Link>
