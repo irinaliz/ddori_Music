@@ -1,0 +1,38 @@
+.search_box {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background:rgb(255, 236, 149);
+}
+
+#search {
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 70%;
+}
+
+#search::placeholder {
+    color: gray;
+    transition: .3s;
+}
+
+#search:focus {
+    background-color: #fff;
+    border: none;
+}
+
+#search:focus::placeholder {
+    opacity: 0;
+}
+
+button {
+    margin-left: 4px;
+    padding: 5px;
+    width: 60px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: black;
+    color: #fff;
+    border-radius: 20px;
+}

@@ -37,7 +37,7 @@ a {
   clear:both;
 }
 
-/* header */
+/* header -- 공통 컴포넌트 */
 header{
   display: flex;
   align-items: center;
@@ -58,36 +58,6 @@ header{
 .right_items {
   display: flex;
 }
-/* 검색 박스와 버튼 --> section 1로 옮길 예정 */
-/* .search_box {
-  outline: 1px solid blue;
-  margin: 0 20px;
-}
-
-#search {
-  padding: 8px 3px;
-  border-radius: 20px;
-  border: 2px solid black;
-} 
-
-#search::placeholder{
-  color: gray;
-} 
-
-#search:focus{
-  background-color: #fff;
-  border: none;
-}
-
-button {
-  margin-left: 4px;
-  padding: 8px 3px;
-  width: 80px;
-  border: none;
-  background-color: black;
-  color: #fff;
-  border-radius: 20px;
-} */
 
 .user {
   font-size: 1rem;

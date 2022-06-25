@@ -1,0 +1,50 @@
+.best_song {
+    padding: 10px;
+}
+
+.best_song h1 {
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.best_song ol li,
+.best_song .song_left,
+.best_song .song_right {
+    display: flex;
+    font-size: 1rem;
+}
+
+.best_song li{
+    margin: 20px auto;
+}
+
+.best_song .song_left {
+    align-items: center;
+    /* width: 40%; */
+}
+
+.best_song .song_art {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    background: pink;
+}
+
+.best_song .song_num {
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+.best_song .song_right {
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.best_song .song_name {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+

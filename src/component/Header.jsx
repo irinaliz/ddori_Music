@@ -16,11 +16,6 @@ export default function Header() {
     <div id="wrap">
       <header>
         <h1 className="logo">DDORI Music</h1>
-        {/* section 1로 옮길 예정 */}
-        {/* <div className="search_box">
-          <input type="search" id="search" placeholder="찾고 싶은 노래를 검색하세요"/>
-          <button>검색</button>
-        </div> */}
         <div className="right_items">
           <div className="user">
             <Link to="/">Login</Link>

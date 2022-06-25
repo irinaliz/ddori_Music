@@ -10,9 +10,10 @@ function App() {
   return (
     <div>
       <Header />
+      <Section />
+      <Section1 />
+      
       <Routes>
-        <Route path="/" element={<Section />} />
-        <Route path="/1" element={<Section1 />} />
         <Route path="/2" element={<Section2 cate="Hello!!" />} />
       </Routes>
     </div>
