@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./css/reset.css";
 import { Route, Link, Routes } from "react-router-dom";
 import Header from "./component/Header";
 import Section from "./component/Section";

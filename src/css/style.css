@@ -1,7 +1,18 @@
 @font-face {
   font-family: 'NEXON';
-  src: url('./font/NEXON Lv1 Gothic Low OTF Light.otf');
+  src: url('../font/NEXON Lv1 Gothic Low OTF Light.otf');
 }
+
+@font-face {
+  font-family: 'NEXON-bold';
+  src: url('../font/NEXON\ Lv1\ Gothic\ Low\ OTF\ Bold.otf');
+}
+
+@font-face {
+  font-family: 'NEXON-light';
+  src: url('../font/NEXON\ Lv1\ Gothic\ Low\ OTF\ Light.otf.otf');
+}
+
 /* reset */
 * {
   margin: 0 auto;
@@ -11,25 +22,13 @@
 body{
   font-family: 'NEXON';
   font-size: 20px; /* 1rem */
-}
-
-li {
-  list-style: none;
+  /* background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%); */
 }
 
 a {
   color: inherit;
   text-decoration: none;
-}
-
-.flex {
-  display: flex;
-}
-
-#wrap{
-  width: 80%;
-  background-color: #fff;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.055);
 }
 
 #wrap::after{
@@ -40,27 +39,40 @@ a {
 
 /* header */
 header{
-  position: relative;
-  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  width: 100%;
+  background-color: #fff; backdrop-filter: blur(5px);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.12);
 }
 
 .logo {
-  float: left;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  padding-left: 10px;
 }
 
-.search_box {
-  display: inline-block;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%);
+.right_items {
+  display: flex;
+}
+/* 검색 박스와 버튼 --> section 1로 옮길 예정 */
+/* .search_box {
+  outline: 1px solid blue;
+  margin: 0 20px;
 }
 
 #search {
   padding: 8px 3px;
-  width: 400px;
   border-radius: 20px;
   border: 2px solid black;
-}
+} 
+
+#search::placeholder{
+  color: gray;
+} 
 
 #search:focus{
   background-color: #fff;
@@ -75,9 +87,16 @@ button {
   background-color: black;
   color: #fff;
   border-radius: 20px;
-}
+} */
 
 .user {
+  font-size: 1rem;
   padding: 10px;
-  float: right;
+  padding-right: 4px;
+}
+
+.toggle-btn {
+  font-size: 1rem;
+  padding: 10px;
+  cursor: pointer;
 }
